@@ -1,8 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-
+import PrimerComponente from './Components/PrimerComponente';
 function App() {
+  const Saludo = "Buen día";
   return (
+    <>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -10,7 +12,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <p>
-          Hola
+          {Saludo}
         </p>
         <a
           className="App-link"
@@ -22,6 +24,8 @@ function App() {
         </a>
       </header>
     </div>
+    <PrimerComponente />
+    </>
   );
 }
 
