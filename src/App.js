@@ -1,8 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import PrimerComponente from './Components/PrimerComponente';
-function App() {
-  const Saludo = "Buen día";
+function App() {  
   return (
     <>
     <div className="App">
@@ -10,10 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>
-          {Saludo}
-        </p>
+        </p>        
         <a
           className="App-link"
           href="https://reactjs.org"
