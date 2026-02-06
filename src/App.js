@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 import PrimerComponente from './Components/PrimerComponente';
-function App() {  
+import  Contador  from './Components/Contador';
+
+function App() {    
   return (
     <>
     <div className="App">
@@ -18,6 +20,7 @@ function App() {
         >
           Learn React
         </a>
+        <Contador />
       </header>
     </div>
     <PrimerComponente />
