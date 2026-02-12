@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import PrimerComponente from './Components/PrimerComponente';
 import  Contador  from './Components/Contador';
+import Text from './Components/Text';
+import ContConLimite from './Components/ContConLimite.js';
 
 function App() {    
   return (
@@ -20,7 +22,11 @@ function App() {
         >
           Learn React
         </a>
-        <Contador />
+        <Contador />    
+        <br />
+        <Text />  
+        <br />
+        <ContConLimite />
       </header>
     </div>
     <PrimerComponente />
